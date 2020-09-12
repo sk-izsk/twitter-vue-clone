@@ -15,7 +15,8 @@
     "core-js": "^3.6.5",
     "gtag": "^1.0.1",
     "tailwindcss": "^1.8.8",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-icon": "^2.1.2"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
