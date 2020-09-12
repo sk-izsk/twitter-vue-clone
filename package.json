@@ -5,20 +5,34 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "precommit:check": "yarn prettier:fix",
+    "prettier:check": "prettier --config .prettierrc.js --check \"*/**/*.{ts,tsx,js,jsx,json,sass,scss,css,html,md,vue}\"",
+    "prettier:fix": "yarn prettier:check --write"
   },
   "dependencies": {
+    "@tailwindcss/ui": "^0.6.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "gtag": "^1.0.1",
+    "tailwindcss": "^1.8.8",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@vue/cli-plugin-babel": "~4.5.6",
+    "@vue/cli-plugin-eslint": "~4.5.6",
+    "@vue/cli-service": "~4.5.6",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^7.9.0",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "husky": "^4.3.0",
+    "prettier": "^2.1.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit:check"
+    }
   },
   "eslintConfig": {
     "root": true,
