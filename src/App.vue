@@ -2,17 +2,19 @@
   <div id="app" class="flex container h-screen w-full">
     <sidebar />
     <tweet />
+    <trending />
   </div>
 </template>
 
 <script>
-import { Sidebar, Tweet } from './screens/';
+import { Sidebar, Tweet, Trending } from './screens/';
 
 export default {
   name: 'App',
   components: {
     Sidebar,
     Tweet,
+    Trending,
   },
 };
 </script>
