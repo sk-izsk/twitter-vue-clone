@@ -52,7 +52,6 @@ The Frontend of this portfolio build mainly on Vue along with some other importa
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
-- [@vue/test-utils](https://vue-test-utils.vuejs.org)
 
 <!-- GETTING STARTED -->
 
