@@ -48,7 +48,7 @@ The Frontend of this portfolio build mainly on Vue along with some other importa
 - [Vue](https://vuejs.org)
 - [Javascript](https://www.javascript.com)
 - [Tailwind Styling](https://tailwindcss.com)
-- [Netlify(deploy)](https://www.netlify.com)
+- [Firebase (deploy)](https://www.netlify.com)
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)

@@ -11,15 +11,15 @@
     "prettier:fix": "yarn prettier:check --write"
   },
   "dependencies": {
-    "@tailwindcss/ui": "^0.6.0",
+    "@tailwindcss/ui": "^0.6.2",
     "core-js": "^3.6.5",
     "gtag": "^1.0.1",
-    "tailwindcss": "^1.8.8",
+    "tailwindcss": "^1.8.10",
     "vue": "^2.6.12",
     "vue-icon": "^2.1.2"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@vue/cli-plugin-babel": "~4.5.6",
     "@vue/cli-plugin-eslint": "~4.5.6",
     "@vue/cli-service": "~4.5.6",
@@ -27,7 +27,7 @@
     "eslint": "^7.9.0",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",
-    "prettier": "^2.1.1",
+    "prettier": "^2.1.2",
     "vue-template-compiler": "^2.6.12"
   },
   "husky": {
