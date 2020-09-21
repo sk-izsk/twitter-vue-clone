@@ -12,7 +12,7 @@
   <p align="center">
     Built in Vue with passion
     <br />
-    <a href="https://izsk-twitter-vue.netlify.app"><strong>Explore the website »</strong></a>
+    <a href="https://izsk-twitter-vue-clone.web.app"><strong>Explore the website »</strong></a>
     <br />
     <br />
   </p>
@@ -35,7 +35,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://izsk-twitter-vue.netlify.app)
+[![Product Name Screen Shot][product-screenshot]](https://izsk-twitter-vue-clone.web.app)
 
 I love coding specially on javascript/typescript. This is my small effort to show my skill and knowledge so far. As headline suggest I create this twitter clone based on vue just out of my passion.
 
